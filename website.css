@@ -1,0 +1,222 @@
+body{
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 30px;
+  background-color:white;
+  color: white;
+  height: 100%;
+  margin: 0;
+ 
+  
+  
+
+}
+.navbar{
+  
+  position:sticky;
+  top:0px;
+  left:0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-grow:1;
+
+}
+
+
+
+.contact-info{
+  font-size: 50px;
+  flex-grow: 1;
+  background-color: rgb(128, 0, 32);
+  text-align:center;
+  cursor: pointer;
+
+
+
+  
+}
+
+.contact-info:active{
+  background-color: black;
+  transition: 0.15s;
+  cursor: pointer;
+  
+}
+.Projects{
+  font-size:50px;
+  background-color: rgb(128, 0, 32);
+  flex-grow:1;
+  cursor: pointer;
+}
+
+.Projects:active{
+  background-color: black;
+  transition: 0.15s;
+  cursor: pointer;
+  
+}
+.about-me{
+  font-size: 50px;
+  background-color: rgb(128, 0, 32);
+  cursor: pointer;
+  flex-grow:1;
+}
+
+.about-me:active{
+  background-color: black;
+  transition: 0.15s;
+  cursor: pointer;
+  
+}
+
+.all-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.welcome-box{
+  display: flex;
+  flex-direction: row
+  ;
+  text-align: left;
+  flex-grow:1;
+  width: 100%;
+  
+  
+}
+.opening-text{
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.brief{
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.profile-box{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: white;
+  
+}
+.contact-info-box{
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.about-me-box{
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.linkedn_profile{
+  color:black;
+  cursor: pointer;
+  text-decoration: none;
+  
+ 
+}
+.linkedin-image{
+height: 2.5vw;
+max-width: 100%;
+border-radius: 100%;
+}
+.gmail-pic{
+
+  height: 2.5vw;
+  max-width: 100%;
+
+
+}
+.github-pic{
+  color: white;
+  background-color: white;
+  
+}
+.github-icon{
+  height: 2.5vw;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.gmail-icon{
+  background-color: white;
+  color: white;
+}
+
+.resume{
+  margin-top: 3px;
+  margin-bottom: 40px;
+}
+.resume-link{
+  
+  color: black;
+  text-decoration: none;
+}
+
+.resume:active{
+  cursor: pointer;
+}
+.parent-container{
+  width:100%;
+  max-width: 700px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-wrap: wrap;
+}
+
+
+.all_text{
+  background-color: white;
+  color:black;
+  flex:1;
+  flex-wrap: wrap;
+  
+
+}
+
+.profile_picture{
+  
+  justify-content: center;
+  width: 10vw;
+ 
+  
+
+}
+.welcome_text{
+  border-top: 0;
+  border-bottom: 0;
+  
+
+}
+
+.projects_header{
+  font-weight: 400; 
+  margin-top: 8px;
+  margin-bottom: 8px;
+ 
+}
+
+.project_text{
+ text-decoration: none;
+ 
+}
+
+
