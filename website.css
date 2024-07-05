@@ -25,7 +25,7 @@ body{
 
 
 
-.contact-info{
+.experience{
   font-size: 50px;
   flex-grow: 1;
   background-color: rgb(128, 0, 32);
@@ -37,20 +37,20 @@ body{
   
 }
 
-.contact-info:active{
+.experience:active{
   background-color: black;
   transition: 0.15s;
   cursor: pointer;
   
 }
-.Projects{
+.projects{
   font-size:50px;
   background-color: rgb(128, 0, 32);
   flex-grow:1;
   cursor: pointer;
 }
 
-.Projects:active{
+.projects:active{
   background-color: black;
   transition: 0.15s;
   cursor: pointer;
